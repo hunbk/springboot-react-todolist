@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+
+  /* 드래그 방지 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* TodoCreate */
+
+.TodoCreate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+/* TodoList */
+
+.TodoList {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+/* TodoItem */
+
+.TodoItem {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.TodoItem .btn_remove {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.TodoItem .complated {
+  text-decoration: line-through;
+  text-decoration-color: blue;
+}
