@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hunbk.repository.TodoMapper">
+
+<!--    <select id="findAll" resultType="Todo">-->
+<!--        select *-->
+<!--        from todo-->
+<!--    </select>-->
+
+<!--    <insert id="create">-->
+<!--        insert into todo(content)-->
+<!--            values (#{content})-->
+<!--    </insert>-->
+
+<!--    <delete id="delete">-->
+<!--        delete-->
+<!--        from todo-->
+<!--        where id = #{id}-->
+<!--    </delete>-->
+
+<!--    <update id="update">-->
+<!--        update todo-->
+<!--        set is_check = #{isCheck}-->
+<!--        where id = #{id}-->
+<!--    </update>-->
+
+</mapper>
